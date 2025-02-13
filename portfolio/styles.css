@@ -1,0 +1,90 @@
+/* 
+Estados possíveis de um elemento: 
+    :link, :visited, :hover, :active, :focus
+Pseudo-classes possíveis:   
+    :first-child, :last-child, :nth-child(), :nth-last-child(), :only-child, :only-of-type, :not(), :empty, :target, :enabled, :disabled, :checked, :required, :optional, :read-only, :read-write, :valid, :invalid, :in-range, :out-of-range, :default, :root, :empty, :blank, :nth-of-type(), :nth-last-of-type(), :first-of-type, :last-of-type, :only-child, :only-of-type, :lang(), :dir(), :scope, :any-link, :local-link, :target, :target-within, :target-text, :target-image, :target-visited, :scope, :current, :past, :future, :active, :hover, :focus    
+Pseudo-elementos possíveis: 
+    ::first-line, ::first-letter, ::before, ::after
+Pseudo-classes e pseudo-elementos são separados por dois pontos (::) 
+*/
+
+/* Reset CSS */
+
+* {
+    /* margin: 0;
+    padding: 0;
+    box-sizing: border-box; */
+
+    ul,
+    ol {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        list-style-type: none;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    a:link {
+        color: inherit;
+    }
+
+
+    a:visited {
+        color: inherit;
+    }
+
+    a:hover{
+        color:#333;
+        background-color: #fff;
+        font-size: 16px;
+        font-weight: lighter;
+        
+    }
+
+    .projetos{
+        display: flex;
+    }
+    .certificados{
+        display: flex;
+    }
+    h1,
+    h2,
+    h3,
+    p {
+        font-size: 16px;
+        font-weight: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    figure {
+        margin: 0;
+        padding: 0;
+    }
+
+    h1{
+        font-size: 42px;
+    }
+
+    .menu_principal{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: #333;
+        color: #fff;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    #home{
+        font-size: 48px;
+    }
+}

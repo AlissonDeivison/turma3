@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    width: 100%;
+}
+
+.container :nth-child(1){
+    flex-grow: 1;
+    background-color: #f1c40f;
+}
+
+.container :nth-child(2){
+    flex-grow: 1;
+    background-color: #e74c3c;
+}
+
+.container :nth-child(3){
+    flex-grow: 11;
+    background-color: #3498db;
+}
+
+.container_shrink{
+    display: flex;
+    width: 300px;
+    background-color: rgb(91, 125, 126);
+    padding: 10px 0;
+}
+
+.container_shrink div {
+    flex-shrink: 1;
+}
+
+.container_shrink :nth-child(1){
+    width: 200px;
+    background-color: #f1c40f;
+    flex-shrink: 1;
+}
+
+.container_shrink :nth-child(2){
+    width: 200px;
+    background-color: #e74c3c;
+    flex-shrink: 1;
+}
+
+.container_shrink :nth-child(3){
+    width: 200px;
+    background-color: #3498db;
+    flex-shrink: 5;
+}

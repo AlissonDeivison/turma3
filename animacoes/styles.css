@@ -1,0 +1,81 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: #f1c40f;
+    position: relative;
+    transition: background-color 1s;
+}
+
+.box:hover{
+    background-color: #e74c3c;
+}
+
+@keyframes example{
+    from{
+        background-color: #f1c40f;
+    }
+    to {
+        background-color: #e74c3c;
+    }
+}
+
+.animated_box{
+    margin-top: 5rem;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation: example 2s infinite;
+}
+
+.rotate{
+    margin-top: 5rem;
+    width: 100px;
+    height: 100px;
+    background-color: #f1c40f;
+    position: relative;
+    transition: transform 1s;
+}
+
+.rotate:hover{
+    transform: rotate(95deg);
+}
+
+.scale{
+    margin-top: 5rem;
+    width: 100px;
+    height: 100px;
+    background-color: #f1c40f;
+    position: relative;
+    transition: transform 2s;
+}
+
+.scale:hover{
+    transform: scale(-1);
+}
+
+.translate{
+    margin-top: 5rem;
+    width: 100px;
+    height: 100px;
+    background-color: #f1c40f;
+    position: relative;
+    transition: transform 1s;
+}
+
+.translate:hover{
+    transform: translate(100px, 100px);
+}
+
+.skew{
+    margin-left: 10rem;
+    margin-top: 5rem;
+    width: 100px;
+    height: 100px;
+    background-color: #f1c40f;
+    position: relative;
+    transition: transform 2s;
+}
+
+.skew:hover{
+    transform: skew(30deg, 30deg);
+}
